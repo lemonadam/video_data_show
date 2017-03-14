@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  //p Welcome to #{title}
+  //div(class="form-wrapper")
+  // span 同步上传
+  // form(name="upload",action="/upload",method="post",enctype="multipart/form-data")
+  //  input(name="file",type="file",multiple="multiple")
+  //  input(naem="submit",type="submit",value="上传")
+
+  div.ajax-wrapper
+    span 异步上传
+    input(id="fileupload",type="file",name="files[]",multiple="multiple")
+  div(id="progress" class="progress")
+    div(class="progress-bar progress-bar-success")
+  //div(id="files" class="files")
+
+ script(type="text/javascript",src="/javascripts/lib/jquery-1.8.2.min.js")
+ script(type="text/javascript",src="/javascripts/lib/jquery.fileupload.js")
+ script(type="text/javascript",src="/javascripts/upload/upload.js")

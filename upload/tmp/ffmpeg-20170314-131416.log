@@ -1,0 +1,407 @@
+ffmpeg started on 2017-03-14 at 13:14:16
+Report written to "ffmpeg-20170314-131416.log"
+Command line:
+ffmpeg -report -i video.mp4
+ffmpeg version 3.2.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 8.0.0 (clang-800.0.42.1)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.2.4 --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --disable-lzma --enable-vda
+  libavutil      55. 34.101 / 55. 34.101
+  libavcodec     57. 64.101 / 57. 64.101
+  libavformat    57. 56.101 / 57. 56.101
+  libavdevice    57.  1.100 / 57.  1.100
+  libavfilter     6. 65.100 /  6. 65.100
+  libavresample   3.  1.  0 /  3.  1.  0
+  libswscale      4.  2.100 /  4.  2.100
+  libswresample   2.  3.100 /  2.  3.100
+  libpostproc    54.  1.100 / 54.  1.100
+Splitting the commandline.
+Reading option '-report' ... matched as option 'report' (generate a report) with argument '1'.
+Reading option '-i' ... matched as input url with argument 'video.mp4'.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option report (generate a report) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url video.mp4.
+Successfully parsed a group of options.
+Opening an input file: video.mp4.
+[file @ 0x7fe89ae001c0] Setting default whitelist 'file,crypto'
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] ISO: File Type Major Brand: isom
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] Unknown dref type 0x08206c7275 size 12
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] Offset DTS by ctts[0].duration: 1024
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] Processing st: 0, edit list 0 - media time: 1024, duration: 177152
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 0 @ 0, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 512 @ 0, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 1024 @ 1, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 1536 @ 2, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 2048 @ 3, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 2560 @ 4, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 3072 @ 5, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 3584 @ 6, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 4096 @ 7, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 4608 @ 8, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 5120 @ 9, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 5632 @ 10, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 6144 @ 10, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 6656 @ 11, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 7168 @ 12, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 7680 @ 13, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 8192 @ 14, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 8704 @ 15, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 9216 @ 16, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 9728 @ 17, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 10240 @ 18, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 10752 @ 18, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 11264 @ 19, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 11776 @ 20, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 12288 @ 21, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 12800 @ 22, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 13312 @ 23, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 13824 @ 24, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 14336 @ 25, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 14848 @ 26, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 15360 @ 27, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 15872 @ 28, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 16384 @ 29, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 16896 @ 30, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 17408 @ 31, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 17920 @ 32, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 18432 @ 33, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 18944 @ 34, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 19456 @ 35, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 19968 @ 36, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 20480 @ 36, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 20992 @ 37, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 21504 @ 38, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 22016 @ 39, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 22528 @ 40, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 23040 @ 41, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 23552 @ 42, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 24064 @ 43, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 24576 @ 44, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 25088 @ 45, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 25600 @ 46, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 26112 @ 47, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 26624 @ 47, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 27136 @ 48, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 27648 @ 49, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 28160 @ 50, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 28672 @ 51, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 29184 @ 52, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 29696 @ 53, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 30208 @ 54, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 30720 @ 55, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 31232 @ 56, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 31744 @ 57, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 32256 @ 58, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 32768 @ 59, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 33280 @ 60, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 33792 @ 61, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 34304 @ 62, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 34816 @ 63, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 35328 @ 64, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 35840 @ 64, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 36352 @ 65, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 36864 @ 65, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 37376 @ 65, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 37888 @ 65, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 38400 @ 66, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 38912 @ 67, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 39424 @ 68, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 39936 @ 69, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 40448 @ 70, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 40960 @ 71, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 41472 @ 72, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 41984 @ 73, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 42496 @ 74, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 43008 @ 75, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 43520 @ 76, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 44032 @ 77, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 44544 @ 78, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 45056 @ 79, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 45568 @ 80, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 46080 @ 81, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 46592 @ 82, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 47104 @ 83, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 47616 @ 84, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 48128 @ 85, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 48640 @ 86, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 49152 @ 87, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 49664 @ 87, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 50176 @ 88, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 50688 @ 89, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 51200 @ 90, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 51712 @ 91, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 52224 @ 92, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 52736 @ 93, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 53248 @ 94, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 53760 @ 95, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 54272 @ 96, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 54784 @ 97, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 55296 @ 98, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 55808 @ 99, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 56320 @ 100, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 56832 @ 101, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 57344 @ 102, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 57856 @ 103, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 58368 @ 104, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 58880 @ 105, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 59392 @ 106, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 59904 @ 107, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 60416 @ 108, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 60928 @ 109, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 61440 @ 110, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 61952 @ 111, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 62464 @ 112, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 62976 @ 113, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 63488 @ 114, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 64000 @ 115, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 64512 @ 116, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 65024 @ 117, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 65536 @ 118, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 66048 @ 119, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 66560 @ 120, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 67072 @ 121, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 67584 @ 122, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 68096 @ 123, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 68608 @ 124, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 69120 @ 125, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 69632 @ 126, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 70144 @ 127, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 70656 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 71168 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 71680 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 72192 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 72704 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 73216 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 73728 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 74240 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 74752 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 75264 @ 128, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 75776 @ 129, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 76288 @ 130, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 76800 @ 131, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 77312 @ 132, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 77824 @ 133, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 78336 @ 134, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 78848 @ 135, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 79360 @ 136, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 79872 @ 137, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 80384 @ 138, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 80896 @ 139, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 81408 @ 140, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 81920 @ 141, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 82432 @ 142, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 82944 @ 143, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 83456 @ 144, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 83968 @ 145, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 84480 @ 146, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 84992 @ 147, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 85504 @ 148, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 86016 @ 149, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 86528 @ 150, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 87040 @ 151, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 87552 @ 152, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 88064 @ 153, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 88576 @ 154, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 89088 @ 155, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 89600 @ 156, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 90112 @ 157, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 90624 @ 158, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 91136 @ 159, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 91648 @ 160, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 92160 @ 161, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 92672 @ 162, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 93184 @ 162, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 93696 @ 163, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 94208 @ 164, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 94720 @ 165, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 95232 @ 166, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 95744 @ 167, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 96256 @ 168, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 96768 @ 169, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 97280 @ 170, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 97792 @ 171, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 98304 @ 172, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 98816 @ 173, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 99328 @ 174, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 99840 @ 175, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 100352 @ 176, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 100864 @ 176, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 101376 @ 177, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 101888 @ 178, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 102400 @ 179, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 102912 @ 180, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 103424 @ 181, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 103936 @ 182, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 104448 @ 183, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 104960 @ 184, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 105472 @ 185, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 105984 @ 186, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 106496 @ 187, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 107008 @ 188, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 107520 @ 189, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 108032 @ 190, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 108544 @ 191, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 109056 @ 192, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 109568 @ 193, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 110080 @ 194, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 110592 @ 195, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 111104 @ 196, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 111616 @ 197, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 112128 @ 198, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 112640 @ 199, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 113152 @ 200, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 113664 @ 201, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 114176 @ 202, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 114688 @ 203, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 115200 @ 204, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 115712 @ 205, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 116224 @ 206, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 116736 @ 206, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 117248 @ 207, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 117760 @ 208, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 118272 @ 209, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 118784 @ 210, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 119296 @ 210, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 119808 @ 211, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 120320 @ 212, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 120832 @ 213, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 121344 @ 213, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 121856 @ 213, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 122368 @ 213, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 122880 @ 214, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 123392 @ 215, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 123904 @ 216, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 124416 @ 217, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 124928 @ 218, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 125440 @ 218, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 125952 @ 219, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 126464 @ 220, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 126976 @ 221, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 127488 @ 222, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 128000 @ 223, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 128512 @ 224, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 129024 @ 225, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 129536 @ 226, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 130048 @ 227, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 130560 @ 228, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 131072 @ 229, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 131584 @ 230, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 132096 @ 231, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 132608 @ 232, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 133120 @ 233, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 133632 @ 234, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 134144 @ 235, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 134656 @ 236, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 135168 @ 237, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 135680 @ 238, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 136192 @ 239, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 136704 @ 240, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 137216 @ 241, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 137728 @ 242, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 138240 @ 243, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 138752 @ 244, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 139264 @ 245, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 139776 @ 246, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 140288 @ 247, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 140800 @ 248, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 141312 @ 248, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 141824 @ 249, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 142336 @ 250, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 142848 @ 251, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 143360 @ 251, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 143872 @ 252, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 144384 @ 253, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 144896 @ 254, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 145408 @ 255, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 145920 @ 256, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 146432 @ 257, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 146944 @ 258, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 147456 @ 259, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 147968 @ 260, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 148480 @ 261, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 148992 @ 262, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 149504 @ 263, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 150016 @ 264, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 150528 @ 265, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 151040 @ 266, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 151552 @ 267, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 152064 @ 268, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 152576 @ 269, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 153088 @ 269, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 153600 @ 270, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 154112 @ 271, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 154624 @ 272, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 155136 @ 273, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 155648 @ 274, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 156160 @ 275, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 156672 @ 276, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 157184 @ 277, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 157696 @ 278, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 158208 @ 279, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 158720 @ 280, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 159232 @ 281, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 159744 @ 282, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 160256 @ 283, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 160768 @ 284, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 161280 @ 285, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 161792 @ 286, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 162304 @ 287, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 162816 @ 288, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 163328 @ 289, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 163840 @ 290, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 164352 @ 291, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 164864 @ 292, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 165376 @ 293, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 165888 @ 294, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 166400 @ 295, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 166912 @ 296, ctts: 2048, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 167424 @ 297, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 167936 @ 297, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 168448 @ 298, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 168960 @ 299, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 169472 @ 300, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 169984 @ 301, ctts: 1536, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 170496 @ 302, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 171008 @ 303, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 171520 @ 304, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 172032 @ 305, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 172544 @ 306, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 173056 @ 307, ctts: 2560, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 173568 @ 308, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 174080 @ 309, ctts: 0, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 174592 @ 310, ctts: 512, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 175104 @ 311, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 175616 @ 311, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 176128 @ 311, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] shifted frame pts, curr_cts: 176640 @ 311, ctts: 1024, ctts_count: 312
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] Unknown dref type 0x08206c7275 size 12
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] Processing st: 1, edit list 0 - media time: 0, duration: 771044
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] Before avformat_find_stream_info() pos: 10255 bytes read:32768 seeks:0 nb_streams:2
+[h264 @ 0x7fe89b01ce00] nal_unit_type: 7, nal_ref_idc: 3
+[h264 @ 0x7fe89b01ce00] nal_unit_type: 8, nal_ref_idc: 3
+[h264 @ 0x7fe89b01ce00] nal_unit_type: 6, nal_ref_idc: 0
+[h264 @ 0x7fe89b01ce00] nal_unit_type: 5, nal_ref_idc: 3
+[h264 @ 0x7fe89b01ce00] user data:"x264 - core 148 - H.264/MPEG-4 AVC codec - Copyleft 2003-2016 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:1:1 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=20 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=2pass mbtree=1 bitrate=1500 ratetol=1.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 cplxblur=20.0 qblur=0.5 vbv_maxrate=3000 vbv_bufsize=6000 nal_hrd=none filler=0 ip_ratio=1.40 aq=1:1.00"
+[h264 @ 0x7fe89b01ce00] Reinit context to 480x640, pix_fmt: yuv420p
+[h264 @ 0x7fe89b01ce00] no picture 
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] All info found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fe89b014200] After avformat_find_stream_info() pos: 42255 bytes read:65536 seeks:0 frames:4
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'video.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.56.100
+    comment         : GIFSHOW [121570338][vivo|vivo X6A][5.0.2|21][PD1415A][4.54.0.3382][Camera:b][Beauty:0.0]
+  Duration: 00:00:17.48, start: 0.000000, bitrate: 1518 kb/s
+    Stream #0:0(und), 3, 1/10240: Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x640, 1480 kb/s, 20 fps, 20 tbr, 10240 tbn, 40 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und), 1, 1/44100: Audio: aac (HE-AAC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Successfully opened the file.
+At least one output file must be specified
+[AVIOContext @ 0x7fe89ae00760] Statistics: 65536 bytes read, 0 seeks

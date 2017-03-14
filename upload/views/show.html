@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Upload Video</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/default.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/component.css"/>
+    <link rel="stylesheet" type="text/css" href="css/component1.css"/>
+    <script type="text/javascript" src="javascripts/lib/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="javascripts/lib/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="javascripts/lib/classie.js"></script>
+    <script type="text/javascript" src="javascripts/lib/jquery.iframe-transport.js"></script>
+    <script type="text/javascript" src="javascripts/lib/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="javascripts/upload/upload.js"></script>
+    <!--<style type="text/css" src="../public/stylesheets/style.css"></style>-->
+</head>
+<body>
+<div class="container">
+    <section class="content">
+        <h2>上传视频获取参数只需拖动Video到对应框内即可</h2>
+        <div class="input input--minoru" style="max-width: none">
+     <div class="ajax-wrapper">
+      <!--<input id="fileupload" type="file" name="files[]" multiple="multiple"/></div>-->
+      <button class="input__field input__field--minoru btn btn-8 btn-8g" type="text" id="fileupload" name="files[]" multiple="multiple" style="
+    margin: 0 auto 50px;
+    width: 400px;
+    float: none
+"> <label class="input__label input__label--minoru"> <span class="input__label-content input__label-content--minoru " ;="" style="display:block; text-align:center ">Video File</span> </label> </button>
+     <div class="ajax-wrapper" >
+      <label class="input__field input__field--minoru btn btn-8 btn-8g" style="font-size:5px;width:800px;margin: 0 auto;float: none" > <span
+              style="display:block; text-align:center;" id="clickme">---video info--- </span>
+       <div id="files" class="files" style="display:block; text-align:center "></div> </label>
+     </div> </div>
+    </section>
+</div>
+<script>
+    var buttons7Click = Array.prototype.slice.call(document.querySelectorAll('#btn-click button')),
+            buttons9Click = Array.prototype.slice.call(document.querySelectorAll('button.btn-8g')),
+            totalButtons7Click = buttons7Click.length,
+            totalButtons9Click = buttons9Click.length;
+
+    buttons7Click.forEach(function (el, i) {
+        el.addEventListener('click', activate, false);
+    });
+    buttons9Click.forEach(function (el, i) {
+        el.addEventListener('click', activate, false);
+    });
+
+    function activate() {
+        var self = this, activatedClass = 'btn-activated';
+
+        if (classie.has(this, 'btn-7h')) {
+            // if it is the first of the two btn-7h then activatedClass = 'btn-error';
+            // if it is the second then activatedClass = 'btn-success'
+            activatedClass = buttons7Click.indexOf(this) === totalButtons7Click - 2 ? 'btn-error' : 'btn-error';
+        }
+        else if (classie.has(this, 'btn-8g')) {
+            // if it is the first of the two btn-8g then activatedClass = 'btn-success3d';
+            // if it is the second then activatedClass = 'btn-error3d'
+            activatedClass = buttons9Click.indexOf(this) === totalButtons9Click - 2 ? 'btn-error3d' : 'btn-error3d';
+        }
+
+        if (!classie.has(this, activatedClass)) {
+            classie.add(this, activatedClass);
+            setTimeout(function () {
+                classie.remove(self, activatedClass)
+            }, 1000);
+        }
+    }
+
+//    document.querySelector('.btn-7i').addEventListener('click', function () {
+//        classie.add(document.querySelector('#trash-effect'), 'trash-effect-active');
+//    }, false);
+</script>
+</body>
+</html>
