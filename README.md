@@ -1,7 +1,8 @@
 # video_data_show
 
-Environment
-  brew install ffmpeg
-  nodejs
+Environment </br>
+  brew install ffmpeg  </br>
+  nodejs </br>
 
-node app.js
+Run  </br>
+  node app.js
